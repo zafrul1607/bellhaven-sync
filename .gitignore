@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+
+# Private credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local review database
+*.db
+*.db-shm
+*.db-wal
+
+# Local CRM and website datasets
+data/*
+!data/.gitkeep
+
+# Local editor settings and history
+.vscode/
+.Rhistory
